@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/smyrf/CLionProjects/Example_12/Include_and_constants.h
+stdio.h
+-
+stdlib.h
+-
+conio.h
+-
+locale.h
+-
+math.h
+-
+
+C:/Users/smyrf/CLionProjects/Example_12/main.c
+Include_and_constants.h
+C:/Users/smyrf/CLionProjects/Example_12/Include_and_constants.h
+windef.h
+-
+
